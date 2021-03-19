@@ -7,11 +7,20 @@ import java.util.zip.ZipInputStream;
 public class MainTask3 {
     public static void main(String[] args) throws FileNotFoundException {
 
-        GameProgress gameProgress = null;
         String pathToTheFile = "D://Games/savegames/archive.zip";
-        String dir = "D://Games/savegames/save.dat";
+        String dir = "D://Games/savegames/new_";
+        String saves = "D://Games/savegames/new_zip_save.dat";
 
         // считываем архив
+        openZip(pathToTheFile, dir);
+
+        // десериализация
+        GameProgress savedGame = openProgress(saves);
+
+        System.out.println(savedGame);
+    }
+
+    public static void openZip(String pathToTheFile, String dir) {
         try (ZipInputStream zin = new ZipInputStream(new FileInputStream(pathToTheFile))) {
             ZipEntry entry;
             String name;
@@ -20,7 +29,7 @@ public class MainTask3 {
 
                 name = entry.getName();
                 size = entry.getSize();
-                FileOutputStream fout = new FileOutputStream("D://Games/savegames/new_" + name);
+                FileOutputStream fout = new FileOutputStream(dir + name);
                 for (int c = zin.read(); c != -1; c = zin.read()) {
                     fout.write(c);
                 }
@@ -31,15 +40,16 @@ public class MainTask3 {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+    }
 
-        // десериализация
-        try (FileInputStream fis = new FileInputStream("D://Games/savegames/new_zip_save.dat");
-             ObjectInputStream ois = new ObjectInputStream(fis)) {
+    public static GameProgress openProgress(String saves) {
+        GameProgress gameProgress = null;
+
+        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(saves))) {
             gameProgress = (GameProgress) ois.readObject();
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
-
-        System.out.println(gameProgress);
+        return gameProgress;
     }
 }
