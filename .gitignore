@@ -1,5 +1,7 @@
 NetologyJavaCore.iml
 MavenProjectTaskOne_1_4.iml
+.gitignore
 
+/.out
 /.idea
 /.target
