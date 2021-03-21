@@ -1,0 +1,6 @@
+ru/netology1_4/DbSetting.java
+ ru.netology1_4.DbSetting
+ru/netology1_4/MyEntity.java
+ ru.netology1_4.MyEntity
+ru/netology1_4/Db.java
+ ru.netology1_4.Db
