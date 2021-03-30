@@ -6,4 +6,7 @@
 * [Потоки ввода-вывода. Работа с файлами. Сериализация](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/WorkingWithFiles_Serialization1_3)
 * [Сборка проектов. Maven](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/MultimodalMavenProject1_4)
 * [Сборка проектов. Gradle](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/MultimodalGradleProject1_4)
+* [Работа с файлами CSV -> JSON](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/NJC_CSVtoJSON_1_5_1)
+* [Работа с файлами XML -> JSON](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/NJC_XMLtoJSON_1_5_2)
+* [Работа с файлами JSON](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/NJC_JSON_1_5_3)
 
