@@ -11,5 +11,5 @@
 * [Работа с файлами JSON](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/NJC_JSON_1_5_3)
 
 ### *Блок 2. Тестирование программы*
-* [Тестирование кода и Unit-тесты]()
-* [Unit-тесты и Hamcrest]()
+* [Тестирование кода и Unit-тесты](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/NJC_UnitTest_2_1_1)
+* [Unit-тесты и Hamcrest](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/NJC_UnitTest_2_1_2)
