@@ -10,3 +10,6 @@
 * [Работа с файлами XML -> JSON](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/NJC_XMLtoJSON_1_5_2)
 * [Работа с файлами JSON](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/NJC_JSON_1_5_3)
 
+### *Блок 2. Тестирование программы*
+* [Unit-тесты]()
+* [Unit-тесты и Hamcrest]()
