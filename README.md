@@ -14,3 +14,5 @@
 * [Тестирование кода и Unit-тесты](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/NJC_UnitTest_2_1_1)
 * [Unit-тесты и Hamcrest](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/NJC_UnitTest_2_1_2)
 * [Mockito. Мокирование вызовов, Mock, Stub](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/NJC_MockitoTest_Task1)
+
+### *Блок 3. Работа с сетью*
