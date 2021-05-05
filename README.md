@@ -16,3 +16,4 @@
 * [Mockito. Мокирование вызовов, Mock, Stub](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/NJC_MockitoTest_Task1)
 
 ### *Блок 3. Работа с сетью*
+* [Основы работы с сетью. Модель OSI](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/NJC_ModelOSI_3_1_1)
