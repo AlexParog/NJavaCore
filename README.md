@@ -17,3 +17,7 @@
 
 ### *Блок 3. Работа с сетью*
 * [Основы работы с сетью. Модель OSI](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/NJC_ModelOSI_3_1_1)
+* [Протокол HTTP. Вызов удаленных серверов](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/NJC_HTTP_3_2_1)
+
+### *Блок 4. Структура JVM*
+* [JVM. Организация памяти, сборщики мусора](https://github.com/AlexParog/NetologyJavaCore/tree/master/src/NJC_JVM_3_3_1)
